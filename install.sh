@@ -16,4 +16,4 @@ if ! kubectl get ns monitoring &> /dev/null
 then
     kubectl create namespace monitoring # if not created
 fi
-helm upgrade --install --dependency-update my-monitoring my-monitoring
+helm upgrade --install --dependency-update --namespace monitoring my-monitoring my-monitoring
