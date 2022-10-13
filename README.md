@@ -10,8 +10,9 @@ Meta-chart for deploying:
 
 Some requirements should be satisfied:
 
-* Kubernetes cluster (EKS prefferable)
+* Kubernetes cluster (tested with Docker Desktop Kubernetes)
 * Helm (https://helm.sh/docs/intro/install/)
+* Kubectl (https://kubernetes.io/docs/tasks/tools/)
 
 ### Installation process
 
